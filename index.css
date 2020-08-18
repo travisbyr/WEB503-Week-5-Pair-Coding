@@ -1,1 +1,18 @@
-
+div#content, div#content2 {
+    background: red;
+    color: white;
+    width: 20%;
+    text-align: center;
+    flex-direction: column;
+    margin-right: 1em;
+    padding: 2em 0 2em 0;
+    /* margin: 0 auto;  Aligns any content */
+}
+body {
+    margin: 0;
+    display: flex;
+    
+}
+div#content2 {
+    background: blue;
+}
